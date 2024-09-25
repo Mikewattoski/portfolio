@@ -1,0 +1,352 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 60px;
+    padding: 60px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #00aaff, #00ffaa);
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.4rem;
+}
+
+/* About Section */
+.about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.about-image img {
+    width: 350px;
+    border-radius: 50%;
+    border: 8px solid #00aaff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-right: 60px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Experience Section */
+.experience h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
+.experience-item h3 {
+    font-size: 1.8rem;
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+
+.experience-item p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Projects Section */
+.projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.project-item h3 {
+    font-size: 1.8rem;
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+
+.project-item p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Coding Profiles & GitHub Section */
+.coding-profiles h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.profiles-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-item:hover {
+    transform: translateY(-5px);
+}
+
+.profile-item h3 {
+    font-size: 2rem;
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+
+.profile-item p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #00aaff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+
+.skills-used {
+    margin-top: 20px;
+}
+
+.skills-used h3 {
+    font-size: 1.2rem;
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.skills-used p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.certificate-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.certificate {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.certificate:hover {
+    transform: translateY(-5px);
+}
+
+.certificate-title {
+    font-size: 1.6rem;
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+.certificate-titlin {
+    font-size: 1.4rem;
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+.certificate p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center buttons */
+}
+
+/* Button Styles */
+.button {
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text in button */
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color: #0088cc;
+}
+
+/* Media Queries for Button Responsiveness */
+@media (min-width: 768px) {
+    .button-container {
+        flex-direction: row; /* Stack buttons side by side on larger screens */
+    }
+
+   
+    .button {
+        padding: 10px 30px; /* More padding on larger screens */
+        font-size: 1.2rem; /* Slightly larger font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        font-size: 1rem; /* Smaller font size for very small screens */
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+    }
+    .about-image img {
+        margin-right: 0;
+    }
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin: 0;
+    }
+
+    .about-image img {
+        width: 250px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image img {
+        width: 200px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
