@@ -289,6 +289,65 @@ footer {
     background-color: #0088cc;
 }
 
+.skills {
+    background-color: #f8f9fa; /* Light background for skills section */
+    padding: 40px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px; /* Increase header font size */
+}
+
+.skills-content {
+    margin: 0 auto; /* Center the text block */
+    max-width: 800px; /* Limit the width of the content */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+.skills-content p {
+    font-size: 18px; /* Increase paragraph font size */
+    margin: 15px 0; /* Add margin between lines */
+    padding: 15px; /* Add padding inside each skill box */
+    border-radius: 8px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+}
+
+/* Individual skill categories */
+.skills-content p:nth-child(1) {
+    background-color: #e3f2fd; /* Light blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.skills-content p:nth-child(2) {
+    background-color: #fff3e0; /* Light orange background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.skills-content p:nth-child(3) {
+    background-color: #e8f5e9; /* Light green background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.skills-content p:nth-child(4) {
+    background-color: #fce4ec; /* Light pink background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.skills-content p:nth-child(5) {
+    background-color: #f0f4c3; /* Light lime background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Hover effect */
+.skills-content p:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+
 /* Media Queries for Button Responsiveness */
 @media (min-width: 768px) {
     .button-container {
