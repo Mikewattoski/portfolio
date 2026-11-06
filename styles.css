@@ -113,3 +113,9 @@ footer { padding: 24px 0 40px; border-top: 1px solid var(--line); color: var(--m
   .nav nav { gap: 16px; width: 100%; }
   .timeline > li { padding-left: 22px; }
 }
+
+/* Project links */
+.project-link { display: inline-block; margin-top: 14px; font-weight: 600; }
+.project.lead-project .project-link { color: #fff; text-decoration-color: #9fd6e6; }
+.project.lead-project .project-link:hover { color: #9fd6e6; }
+.project.lead-project a:focus-visible { outline-color: #9fd6e6; }

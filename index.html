@@ -100,6 +100,12 @@
   <section id="projects" class="wrap block">
     <h2>Projects</h2>
     <div class="projects">
+      <article class="project lead-project">
+        <h3>Atrium: real-time telemetry platform</h3>
+        <p>Built an end-to-end telemetry pipeline in Go: gRPC client-streaming ingest into RabbitMQ (publisher confirms, manual acks, dead-letter queue), a batch processor writing to PostgreSQL, and a REST API with Redis cache-aside and rate limiting. It delivers at-least-once with idempotent writes, with zero duplicate rows across competing consumers over 80,000+ readings. Containerized with multi-stage distroless images, deployed to Kubernetes (kind), automated with GitHub Actions, and monitored live in a Grafana dashboard.</p>
+        <p class="tags">Golang, gRPC, RabbitMQ, PostgreSQL, Redis, Kubernetes, Docker, GitHub Actions</p>
+        <a class="project-link" href="https://github.com/Mikewattoski/atrium" target="_blank" rel="noopener" aria-label="View the Atrium project on GitHub">View on GitHub</a>
+      </article>
       <article class="project">
         <h3>Real-time WebSocket chat application</h3>
         <p>Engineered a real-time chat platform in Golang with WebSockets and a React.js frontend, supporting thousands of concurrent users and improving data transmission efficiency by 40%. Crafted a responsive React.js interface with improved UX/UI design, achieving a 30% increase in user satisfaction.</p>
@@ -119,8 +125,8 @@
       <div><dt>Languages</dt><dd>Golang, C++, C#, Python, SQL, JavaScript</dd></div>
       <div><dt>Cloud and distributed systems</dt><dd>AWS (Lambda, Step Functions, S3, SQS, CloudWatch), Serverless, Microservices, Event-Driven Architecture, WebSockets, REST APIs, gRPC, Networking, Concurrency</dd></div>
       <div><dt>Backend and frontend</dt><dd>Gin, Echo, Gorilla Mux, .NET Core, Laravel, Node.js, RabbitMQ, React</dd></div>
-      <div><dt>Databases</dt><dd>MySQL, PostgreSQL, MongoDB</dd></div>
-      <div><dt>DevOps, testing and domain</dt><dd>Docker, Jenkins, CI/CD, Git, Linux, Unit Testing, Behave, SpecFlow, Selenium, BACnet, Firmware</dd></div>
+      <div><dt>Databases</dt><dd>MySQL, PostgreSQL, MongoDB, Redis</dd></div>
+      <div><dt>DevOps, testing and domain</dt><dd>Docker, Kubernetes, Jenkins, CI/CD, GitHub Actions, Git, Linux, Grafana, Unit Testing, Behave, SpecFlow, Selenium, BACnet, Firmware</dd></div>
     </dl>
   </section>
 
