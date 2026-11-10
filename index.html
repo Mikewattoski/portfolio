@@ -106,15 +106,11 @@
         <p class="tags">Golang, gRPC, RabbitMQ, PostgreSQL, Redis, Kubernetes, Docker, GitHub Actions</p>
         <a class="project-link" href="https://github.com/Mikewattoski/atrium" target="_blank" rel="noopener" aria-label="View the Atrium project on GitHub">View on GitHub</a>
       </article>
-      <article class="project">
-        <h3>Real-time WebSocket chat application</h3>
-        <p>Engineered a real-time chat platform in Golang with WebSockets and a React.js frontend, supporting thousands of concurrent users and improving data transmission efficiency by 40%. Crafted a responsive React.js interface with improved UX/UI design, achieving a 30% increase in user satisfaction.</p>
-        <p class="tags">Golang, WebSockets, React.js</p>
-      </article>
-      <article class="project">
-        <h3>Cross-website integration platform</h3>
-        <p>Designed a Laravel integration that lets one web application open and run inside another, so users move between platforms without leaving the experience. Enabled cross-site authentication and role-based authorization, and tested the two-site setup locally using XAMPP and virtual hosts.</p>
-        <p class="tags">Laravel, XAMPP, Authentication</p>
+      <article class="project lead-project">
+        <h3>Parley: real-time chat application</h3>
+        <p>Built a multi-room chat server in Go with a lock-free design: a single goroutine owns all room state, while connections communicate through channels with backpressure, heartbeats and per-connection rate limiting. WebSocket connections are secured with short-lived, audience-scoped JWT tickets verified before the handshake, and message history is persisted in PostgreSQL with cursor-based pagination. The React/Redux frontend uses optimistic UI updates with server acknowledgement and automatic reconnection with exponential backoff.</p>
+        <p class="tags">Golang, WebSockets, PostgreSQL, JWT, React, Redux Toolkit</p>
+        <a class="project-link" href="https://github.com/Mikewattoski/parley" target="_blank" rel="noopener" aria-label="View the Parley project on GitHub">View on GitHub</a>
       </article>
     </div>
   </section>
